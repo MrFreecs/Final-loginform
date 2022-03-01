@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{  font-family: 'Roboto Slab', 'Serif';
+    color: black;
+}
+
+.cover{
+    width: 1500px;
+    margin: 150px auto;
+}
+
+.Login {
+    width: 950px;
+    height: 700px;
+    background-color: #f2ccc9;
+    border-radius: 40px 0px 0px 40px;
+    background-image: url("image/buys.png");
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.ok {
+    width: 550px;
+    height: 700px;
+    float: left;
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(238, 210, 52));
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 0px 40px 40px 0px;
+    text-align: center; 
+    
+}
+
+.container {
+    text-align: center;  
+}
+
+.container form .button{
+    background: blue;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container form .button:hover{
+    background: blue;
+}
+
+.container form .back{
+    background: orange;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container form .back:hover{
+    background: orange;
+}
